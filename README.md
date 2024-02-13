@@ -1,7 +1,7 @@
 ---
 
 # British Airways Analysis
-![](images/ba_airline.png)  
+![](.images/ba_airline.png)  
 This repository contains the analysis conducted during my internship at British Airways. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
 
 ## Table of Contents

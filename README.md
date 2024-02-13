@@ -48,10 +48,12 @@ For the second task, I developed a predictive model to understand the factors in
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![portfolio](.images/my_portfolio.svg)](https://github.com/AlokRanjanIN)
+[![linkedin](.images/linkedin.svg)](https://www.linkedin.com/in/alokranjan-in/)
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [Alok Ranjan](https://github.com/AlokRanjanIN)
+
+- 
 ---

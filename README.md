@@ -5,11 +5,6 @@
 
 This repository contains the analysis conducted during my internship at British Airways. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
 
-## Table of Contents
-- [Tasks](#tasks)
-- [Repository Structure](#repository-structure)
-- [Usage](#usage)
-
 ## Tasks
 
 ### Task One: Customer Review Analysis

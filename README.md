@@ -1,7 +1,7 @@
 ---
 
 # British Airways -  Data Science Project
-![Logo](.images/logo.png)
+<a href="https://www.britishairways.com/"><img src=".images/logo.png"></img></a>
 
 This repository contains the analysis conducted during my internship at British Airways. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
 

@@ -2,13 +2,13 @@
 
 # British Airways -  Data Science Project
 ![Logo](.images/logo.png)
+
 This repository contains the analysis conducted during my internship at British Airways. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
 
 ## Table of Contents
 - [Tasks](#tasks)
 - [Repository Structure](#repository-structure)
 - [Usage](#usage)
-- [Contributing](#contributions)
 
 ## Tasks
 
@@ -48,10 +48,6 @@ For the second task, I developed a predictive model to understand the factors in
 4. Access the datasets in the respective directories for conducting your own analysis.
 
 5. Refer to the reports in the `Task1/` and `Task2/` directories for insights and findings from each task.
-
-## Contributing
-Contributions are always welcome!
-Please adhere to this project's `code of conduct`.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

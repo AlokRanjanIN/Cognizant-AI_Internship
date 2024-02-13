@@ -45,7 +45,7 @@ For the second task, I developed a predictive model to understand the factors in
 5. Refer to the reports in the `Task1/` and `Task2/` directories for insights and findings from each task.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
 
 ## 🔗 Links
 [![portfolio](.images/my_portfolio.svg)](https://github.com/AlokRanjanIN)
@@ -54,6 +54,6 @@ For the second task, I developed a predictive model to understand the factors in
 ## Authors
 
 - [Alok Ranjan](https://github.com/AlokRanjanIN)
-
-- 
+  
+   
 ---

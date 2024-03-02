@@ -1,19 +1,19 @@
 ---
 
-# British Airways -  Data Science Project
-<a href="https://www.britishairways.com/"><img src=".images/logo.png"></img></a>
+# Cognizant -  Artificial Intelligence Project
+<a href="https://www.cognizant.com/"><img src=".images/logo.png"></img></a>
 
-This repository contains the analysis conducted during my internship at British Airways. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
+This repository contains the analysis conducted during my internship at Cognizant. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
 
 ## Tasks
 
 ### Task One: Customer Review Analysis
 
-In this task, I scraped and analyzed customer review data to uncover key insights and sentiments. From sentiment analysis to issue identification, we delved into the realm of customer reviews, extracting valuable insights to enhance the British Airways experience.
+In this task, I scraped and analyzed customer review data to uncover key insights and sentiments. From sentiment analysis to issue identification, we delved into the realm of customer reviews, extracting valuable insights to enhance the Cognizant experience.
 
 ### Task Two: Predictive Model Building
 
-For the second task, I developed a predictive model to understand the factors influencing buying behavior for British Airways. Leveraging machine learning techniques, the model aimed to predict customer preferences and behavior, helping the company tailor its services and offerings accordingly.
+For the second task, I developed a predictive model to understand the factors influencing buying behavior for Cognizant. Leveraging machine learning techniques, the model aimed to predict customer preferences and behavior, helping the company tailor its services and offerings accordingly.
 
 ## Repository Structure
 

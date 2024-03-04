@@ -5,7 +5,7 @@
 
 This repository contains the analysis conducted during my internship at Cognizant. 
 
-The project aimed to tackle Gala Groceries' supply chain issue by optimizing item stocking to enhance cost efficiency and customer satisfaction by exploring sales data, understanding relational data, building predictive models, and deploying ML algorithms for production.
+The project aimed to tackle Gala Groceries'(a technology-led grocery store chain based in the USA) supply chain issue by optimizing item stocking to enhance cost efficiency and customer satisfaction by exploring sales data, understanding relational data, building predictive models, and deploying ML algorithms for production.
 
 ## Tasks
 

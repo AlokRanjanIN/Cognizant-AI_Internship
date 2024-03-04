@@ -33,7 +33,7 @@ The `model_train.py` file contains functions for loading data, cleaning data, me
 - numpy
 - pandas
 - sklearn
-- catnoost
+- catboost
 - matplotlib
 
 ### Conclusion

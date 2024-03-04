@@ -1,7 +1,7 @@
 ---
 
 # Cognizant -  Artificial Intelligence Project
-<a href="https://www.cognizant.com/"><img src=".images/logo1.png"></img></a>
+<a href="https://www.cognizant.com/"><img src=".images/logo.png"></img></a>
 
 This repository contains the analysis conducted during my internship at Cognizant. 
 

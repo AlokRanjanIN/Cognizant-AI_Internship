@@ -3,33 +3,59 @@
 # Cognizant -  Artificial Intelligence Project
 <a href="https://www.cognizant.com/"><img src=".images/logo.png"></img></a>
 
-This repository contains the analysis conducted during my internship at Cognizant. The project aimed to gain insights from customer review data and build a predictive model to understand factors influencing buying behavior.
+This repository contains the analysis conducted during my internship at Cognizant. 
+
+The project aimed to tackle Gala Groceries' supply chain issue by optimizing item stocking to enhance cost efficiency and customer satisfaction by exploring sales data, understanding relational data, building predictive models, and deploying ML algorithms for production.
 
 ## Tasks
 
-### Task One: Customer Review Analysis
+### Task One: Exploring Customer Data
 
-In this task, I scraped and analyzed customer review data to uncover key insights and sentiments. From sentiment analysis to issue identification, we delved into the realm of customer reviews, extracting valuable insights to enhance the Cognizant experience.
+Explore Gala Groceries' sales data to identify insights and recommendations for optimizing stock levels.
 
-### Task Two: Predictive Model Building
+### Task Two: Data Modeling
 
-For the second task, I developed a predictive model to understand the factors influencing buying behavior for Cognizant. Leveraging machine learning techniques, the model aimed to predict customer preferences and behavior, helping the company tailor its services and offerings accordingly.
+Understand relational data and formulate a problem statement for predicting stock levels based on sales and sensor data.
+
+### Task Three: Model Building and Interpretation
+Develop predictive models using sample data, combining, transforming, and modeling three datasets effectively to address the business problem statement.
+
+### Task Four: Machine Learning Production
+Develop machine learning algorithms for production by preparing a Python module for training models and outputting performance metrics.
+
+### Task Five: Quality Assurance
+Improve the production machine learning model and discuss optimization strategies with the ML engineering team for better performance before integration.
 
 ## Repository Structure
 
 ```
-├── Task1 /                      # Directory for storing data files
-│   ├── reviews_scraped.csv      # Dataset containing customer review data
-│   └── review_analysis.ipynb    # Jupyter notebook for review analysis
-│   └── report.pdf               # Report for review analysis
-│   └── README                   # README for review analysis
-├── Task2 /                      # Directory for storing data files
-│   ├── customer_booking.csv     # Dataset containing customer booking data
-│   └── booking_prediction.ipynb # Jupyter notebook for predictive modeling
-│   └── report.pdf               # Report for predictive modeling
-│   └── README                   # README for predictive modeling
+├── Task1 /                      # Directory for Task One files
+│   ├── sample_sales_data.csv    # Dataset containing sales data
+│   ├── EDA.ipynb                # Jupyter notebook for exploratory data analysis
+│   ├── eamil.pdf                # Report summarizing findings and recommendations
+│   └── README.md                # README for Task One
+
+├── Task2 /                      # Directory for Task Two files
+│   ├── data_model_diagram.docx  # Data model diagram
+│   ├── Strategic Plans.pdf      # Strategic plan
+│   └── README.md                # README for Task Two
+
+├── Task3 /                      # Directory for Task Three files
+│   ├── datasets/                # Directory for datasets used in Task Three
+│   ├── modeling.ipynb           # Jupyter notebook for modeling
+│   ├── results.pdf              # Model results
+│   └── README.md                # README for Task Three
+
+├── Task4 /                      # Directory for Task Four files
+│   ├── datasets/                # Directory for datasets used in Task Four
+│   ├── module_train.py          # Python module for ML
+│   └── README.md                # README for Task Four
+
+├── Task5 /                      # Directory for Task Five files
+│   └── README.md                # README for Task Five
+
 ├── LICENSE                      # License file
-├── README                       # Main README file
+└── README.md                    # Main README file
 ```
 
 ## Usage
@@ -38,11 +64,10 @@ For the second task, I developed a predictive model to understand the factors in
 
 2. Navigate to the project directory.
 
-3. Explore the notebooks in the `Task1/` and `Task2/` directories for detailed analysis and modeling steps.
+3. Explore the notebooks in the respective Task directories for detailed analysis and modeling steps.
 
-4. Access the datasets in the respective directories for conducting your own analysis.
+4. Access the Python module in Task Four directory for training the model and outputting performance metrics.
 
-5. Refer to the reports in the `Task1/` and `Task2/` directories for insights and findings from each task.
 
 ## License
 [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
@@ -57,3 +82,6 @@ For the second task, I developed a predictive model to understand the factors in
   
    
 ---
+
+
+

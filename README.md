@@ -41,13 +41,13 @@ Improve the production machine learning model and discuss optimization strategie
 │   └── README.md                # README for Task 2
 
 ├── Task3 / (Model Building and Interpretation)
-│   ├── datasets/                # Directory for datasets used in Task Three
+│   ├── datasets/                # Directory for datasets used in Task 3
 │   ├── modeling.ipynb           # Jupyter notebook for modeling
 │   ├── results.pdf              # Model results
 │   └── README.md                # README for Task 3
 
 ├── Task4 / (Machine Learning Production)
-│   ├── datasets/                # Directory for datasets used in Task Four
+│   ├── datasets/                # Directory for datasets used in Task 4
 │   ├── module_train.py          # Python module for ML
 │   └── README.md                # README for Task 4
 

@@ -6,7 +6,7 @@
 
 ### Overview
 
-Welcome to Task 2 of the Cognizant AI Internship! 🛒 This project focuses on understanding relational data and framing a problem statement for Gala Groceries, a technology-led grocery store chain based in the USA. From reviewing data model diagrams to creating strategic plans, delve into the depths of data modeling to develop insights and strategies for predictive analysis and inventory optimization.
+Welcome to Task 2 of the Cognizant AI Internship! 🛒 This project focuses on understanding relational data and framing a problem statement for Gala Groceries. From reviewing data model diagrams to creating strategic plans, delve into the depths of data modeling to develop insights and strategies for predictive analysis and inventory optimization.
 
 ### 🔍 Task Details
 

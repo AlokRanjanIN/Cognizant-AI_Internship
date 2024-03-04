@@ -6,7 +6,7 @@
 
 ### Overview
 
-Welcome to Task 1 of the Cognizant AI Internship! 🛒 This project focuses on exploring customer data from Gala Groceries, a technology-led grocery store chain based in the USA. From analyzing transaction times to customer preferences, delve into the depths of sales data to gain insights into customer behavior and optimize stocking strategies.
+Welcome to Task 1 of the Cognizant AI Internship! 🛒 This project focuses on exploring customer data from Gala Groceries. From analyzing transaction times to customer preferences, delve into the depths of sales data to gain insights into customer behavior and optimize stocking strategies.
 
 ### 🔍 Code Overview
 

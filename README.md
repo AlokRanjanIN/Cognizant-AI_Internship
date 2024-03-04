@@ -9,49 +9,49 @@ The project aimed to tackle Gala Groceries' supply chain issue by optimizing ite
 
 ## Tasks
 
-### [Task One: Exploring Customer Data](./Task%201_Exploratory%20Data%20Analysis/)
+### [Task 1: Exploring Customer Data](./Task%201_Exploratory%20Data%20Analysis/)
 
 Explore Gala Groceries' sales data to identify insights and recommendations for optimizing stock levels.
 
-### [Task Two: Data Modeling](./Task%202_Data%20Modelling/)
+### [Task 2: Data Modeling](./Task%202_Data%20Modelling/)
 
 Understand relational data and formulate a problem statement for predicting stock levels based on sales and sensor data.
 
-### [Task Three: Model Building and Interpretation](./Task%203_Model%20Building%20and%20Interpretation/)
+### [Task 3: Model Building and Interpretation](./Task%203_Model%20Building%20and%20Interpretation/)
 Develop predictive models using sample data, combining, transforming, and modeling three datasets effectively to address the business problem statement.
 
-### [Task Four: Machine Learning Production](./Task%204_Machine%20Learning%20Production/)
+### [Task 4: Machine Learning Production](./Task%204_Machine%20Learning%20Production/)
 Develop machine learning algorithms for production by preparing a Python module for training models and outputting performance metrics.
 
-### [Task Five: Quality Assurance](./Task%205_Quality%20Assurance/)
+### [Task 5: Quality Assurance](./Task%205_Quality%20Assurance/)
 Improve the production machine learning model and discuss optimization strategies with the ML engineering team for better performance before integration.
 
 ## Repository Structure
 
 ```
-├── Task1 /                      # Directory for Task One files
+├── Task1 / (Exploratory Data Analysis)
 │   ├── sample_sales_data.csv    # Dataset containing sales data
 │   ├── EDA.ipynb                # Jupyter notebook for exploratory data analysis
-│   ├── eamil.pdf                # Report summarizing findings and recommendations
+│   ├── email.pdf                # Report summarizing findings and recommendations
 │   └── README.md                # README for Task One
 
-├── Task2 /                      # Directory for Task Two files
+├── Task2 / (Data Modelling)
 │   ├── data_model_diagram.docx  # Data model diagram
 │   ├── Strategic Plans.pdf      # Strategic plan
 │   └── README.md                # README for Task Two
 
-├── Task3 /                      # Directory for Task Three files
+├── Task3 / (Model Building and Interpretation)
 │   ├── datasets/                # Directory for datasets used in Task Three
 │   ├── modeling.ipynb           # Jupyter notebook for modeling
 │   ├── results.pdf              # Model results
 │   └── README.md                # README for Task Three
 
-├── Task4 /                      # Directory for Task Four files
+├── Task4 / (Machine Learning Production)
 │   ├── datasets/                # Directory for datasets used in Task Four
 │   ├── module_train.py          # Python module for ML
 │   └── README.md                # README for Task Four
 
-├── Task5 /                      # Directory for Task Five files
+├── Task5 / (Quality Assurance)
 │   └── README.md                # README for Task Five
 
 ├── LICENSE                      # License file
@@ -70,7 +70,8 @@ Improve the production machine learning model and discuss optimization strategie
 
 
 ## License
-[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+
+This project is licensed under the [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) License.
 
 ## 🔗 Links
 [![portfolio](.images/my_portfolio.svg)](https://github.com/AlokRanjanIN)

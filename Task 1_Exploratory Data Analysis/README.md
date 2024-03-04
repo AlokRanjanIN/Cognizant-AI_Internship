@@ -1,70 +1,50 @@
 ---
 
-# British Airways Internship - Task 1
+# Cognizant AI Internship - Task 1
 
-## BA Customer Review Analysis
+## Exploring Gala Groceries Customer Data
 
 ### Overview
 
-Welcome to Task 1 of the British Airways Internship! 🛫 This project focuses on analyzing customer reviews of British Airways (BA) gathered from [skytrax](https://www.airlinequality.com/airline-reviews/british-airways). From sentiment analysis to topic modeling, delve into the depths of customer feedback to gain insights into passenger experiences and satisfaction levels.
+Welcome to Task 1 of the Cognizant AI Internship! 🛒 This project focuses on exploring customer data from Gala Groceries, a technology-led grocery store chain based in the USA. From analyzing transaction times to customer preferences, delve into the depths of sales data to gain insights into customer behavior and optimize stocking strategies.
 
 ### 🔍 Code Overview
 
-#### 1. Web Scraping
+#### 1. Data Acquisition
 
-The code scrapes customer reviews of British Airways from airlinequality.com, collecting various attributes such as aircraft type, traveler type, seat type, country of residence, route, recommended status, overall rating, and more.
+The code imports sales data from Gala Groceries, including transaction IDs, timestamps, product IDs, categories, customer types, unit prices, quantities, total amounts, and payment types.
 
-#### 2. Cleaning & Preprocessing
+#### 2. Data Cleaning & Preprocessing
 
-After scraping the data, the code performs cleaning and preprocessing tasks, including handling missing values, converting data types, removing duplicates, and splitting the 'route' column into 'from' and 'to' destinations.
+After importing the data, the code performs cleaning and preprocessing tasks, including handling missing values, converting data types, and extracting additional features like transaction hours.
 
 #### 3. Exploratory Data Analysis (EDA)
 
-The EDA section provides insights into the dataset through descriptive statistics, visualization of data distributions, correlation analysis, trend analysis, and more. Key visualizations include histograms, box plots, heatmaps, trend plots, and sentiment analysis.
+The EDA section provides insights into the dataset through descriptive statistics, visualization of data distributions, correlation analysis, and customer behavior analysis. Key visualizations include histograms, bar plots, heatmaps, and correlation matrices.
 
-#### 4. Sentiment Analysis
+#### 4. Customer Behavior Analysis
 
-Sentiment analysis is conducted to assess the polarity of customer reviews, categorizing them as positive, neutral, or negative. The code calculates sentiment scores using TextBlob and visualizes sentiment distributions over time.
+Customer behavior analysis is conducted to understand peak transaction times, popular product categories, preferred payment methods, and correlations between variables like unit price and total sales.
 
-#### 5. WordCloud of Reviews
+#### 5. Insights & Recommendations
 
-Word clouds are generated to visually represent the most frequent words in customer reviews. Separate word clouds are created for all reviews, positive reviews, and negative reviews, offering a glimpse into the most commonly mentioned aspects.
-
-#### 6. Topic Modeling
-
-The code implements topic modeling using Non-negative Matrix Factorization (NMF) to identify prevalent topics in customer reviews. Top words for each topic are displayed, and the distribution of reviews among topics is visualized.
-
-#### 7. Analysis of Reviews After Mid-2022
-
-A specific analysis is performed on negative reviews posted after mid-2022, exploring topics such as connecting flight hassles, business class woes, customer service critique, luggage woes and delays, and culinary and service disappointments.
+Based on the analysis, key insights and recommendations are provided to optimize stocking strategies, tailor promotions, and enhance customer satisfaction.
 
 ### 💻 How to Use
 
 1. Clone the Repository.
-2. Navigate to the Project Directory.
-3. Explore the Task 2 Notebook.
-4. Run the Notebook Cells.
-
+2. Navigate to the Task 1 Directory.
+3. Explore the Gala Groceries EDA Notebook.
+4. Run the Notebook Cells to analyze the customer data.
 
 ### 🛠️ Dependencies
 
 #### Required Libraries:
 
-- requests
-- BeautifulSoup
 - pandas
-- collections
 - numpy
-- seaborn
 - matplotlib
-- textblob
-- wordcloud
-- time
-- gensim
-- nltk
-- sklearn
-- plotly
-- PIL
+- seaborn
 
 ### 📝 Note
 
@@ -72,8 +52,8 @@ Please refrain from directly copying the internship task code for commercial pur
 
 ### Conclusion
 
-The BA Customer Review Analysis offers valuable insights into customer sentiments and preferences regarding British Airways services. By understanding the key drivers of customer satisfaction and dissatisfaction, BA can make informed decisions to improve its offerings and enhance the overall passenger experience.
+The Gala Groceries Customer Data Analysis offers valuable insights into customer behavior and preferences, allowing Gala Groceries to optimize stocking strategies and enhance customer satisfaction. By leveraging the findings from this analysis, Gala Groceries can make data-driven decisions to improve its offerings and drive business growth.
 
 ---
 
-Feel free to explore the code and analysis further to gain deeper insights into BA customer feedback! ✈️📊
+Feel free to explore the code and analysis further to gain deeper insights into Gala Groceries' customer data! 🛒📊

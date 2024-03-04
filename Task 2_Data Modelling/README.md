@@ -1,88 +1,96 @@
 ---
 
-# British Airways Internship - Task 2
+# Cognizant AI Internship - Task 2
 
-## BA Customer Booking Prediction
+## Data Modeling for Gala Groceries
 
 ### Overview
 
-Welcome to Task 2 of the British Airways Internship! In this task, we delve into the fascinating world of predictive modeling to understand customer booking behavior. By leveraging advanced machine learning techniques, we aim to uncover the key factors influencing booking decisions, empowering British Airways to tailor its services and offerings effectively.
+Welcome to Task 2 of the Cognizant AI Internship! 🛒 This project focuses on understanding relational data and framing a problem statement for Gala Groceries, a technology-led grocery store chain based in the USA. From reviewing data model diagrams to creating strategic plans, delve into the depths of data modeling to develop insights and strategies for predictive analysis and inventory optimization.
 
-### 🔍 Code Overview
+### 🔍 Task Details
 
-#### 1. Importing Libraries
+#### 1. Understanding Relational Data
 
-We start by importing essential libraries for data manipulation, visualization, and machine learning.
+Develop an understanding of relational data and how to frame a problem statement.
 
-#### 2. Importing Dataset
+#### 2. Reviewing Data Model Diagram
 
-The dataset (`customer_booking.csv`) is loaded into a Pandas DataFrame for comprehensive analysis.
+Review a data model diagram provided by the Data Engineering team and create a strategic plan on how to use this data to answer the problem statement.
 
-#### 3. Exploratory Data Analysis (EDA)
+#### 3. Strategic Plan Presentation
 
-We dive into exploratory data analysis to gain insights into the dataset, visualize key features, and understand their distributions.
+Summarize the choices and plan of work in a PowerPoint presentation, which will be reviewed by the Data Science team leader and the client.
 
-#### 4. Pre-processing
+### 📋 Task Background
 
-Prepare the dataset for modeling by handling categorical variables, exploring unique values, and splitting the data into training and testing sets.
+My work on the previous task has been instrumental in propelling this project forward with the client. Based on my recommendations, the client wants to focus on the following problem statement:
 
-#### 5. Model Training - CatBoost
+“Can we accurately predict the stock levels of products based on sales data and sensor data on an hourly basis in order to more intelligently procure products from our suppliers?”
 
-Train a powerful CatBoostClassifier, evaluate its performance, and visualize key metrics and confusion matrices.
+The client has agreed to share more data in the form of sensor data, including temperature measurements from storage facilities and estimated stock levels from sensors in refrigerators and freezers. 
 
-#### 6. Model Training - XGBoost
+### 🛠️ Data Model Diagram
 
-Utilize XGBoost to train a robust model with different configurations, including default settings, validation sets, and hyperparameter tuning.
+#### 1. Sales Table
 
-#### 7. Evaluation Metrics
+Contains sales data with columns:
+- transaction_id
+- timestamp
+- product_id
+- category
+- customer_type
+- unit_price
+- quantity
+- total
+- payment_type
 
-Assess model performance using essential evaluation metrics such as accuracy, F1 score, precision, recall, and ROC-AUC.
+#### 2. Sensor Storage Temperature Table
 
-#### 8. XGBoost Feature Importance
+Contains IoT data from temperature sensors in the storage facility with columns:
+- id
+- timestamp
+- temperature
 
-Visualize the top feature importances from the tuned XGBoost model to understand the most influential factors.
+#### 3. Sensor Stock Levels Table
 
-### 💻 How to Use
+Contains estimated stock levels of products based on IoT sensors with columns:
+- id
+- timestamp
+- product_id
+- estimated_stock_pct
+
+### 💼 Strategic Plans
+
+#### Objective
+
+Accurately predict hourly product stock levels using sales and sensor data.
+
+#### Approach
+
+1. **Data Utilization**: Utilize sales data for historical trends and sensor data for real-time warehouse monitoring.
+2. **Data Quality Assurance**: Ensure data integrity, handle missing values, and identify outliers for a reliable dataset.
+3. **Feature Engineering**: Extract relevant features for model building.
+4. **Exploratory Data Analysis (EDA)**: Analyze dataset patterns, correlations, and anomalies.
+5. **Model Building**: Train predictive model using historical data.
+6. **Predictive Analysis**: Use trained model for hourly stock level predictions.
+7. **Inventory Optimization**: Develop a data-driven strategy aligned for efficient resource utilization and minimized wastage.
+8. **Iterative Refinement**: Continuously refine model and strategies based on performance metrics for operational excellence in stock management.
+
+### 🖥️ How to Review
 
 1. Clone the Repository.
-2. Navigate to the Project Directory.
-3. Explore the Task 2 Notebook.
-4. Run the Notebook Cells.
-
-
-### 🛠️ Dependencies
-
-#### Required Libraries:
-
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Seaborn
-- XGBoost
-- CatBoost
-- Scikit-learn
-- Imbalanced-learn
-- Bayesian optimization (skopt)
+2. Navigate to the Task 2 Directory.
+3. Explore the provided data model diagram and strategic plan presentation.
 
 ### 📝 Note
 
 Please refrain from directly copying the internship task code for commercial purposes. This repository is for educational purposes only. Use the code wisely and responsibly, and strive to understand the concepts and methodologies behind the analysis.
 
-### Performance Metrics of Final Tuned XGBoost Classifier Model
-
-| Metric     | On Train Set (%) | On Test Set (%) |
-|------------|------------------|-----------------|
-| Accuracy   | 85.346           | 72.435          |
-| F1         | 86.101           | 71.140          |
-| Precision  | 81.885           | 74.649          |
-| Recall     | 90.774           | 67.946          |
-| ROC_AUC    | 93.499           | 80.286          |
-
 ### Conclusion
 
-Task 2 of the British Airways Internship has unveiled crucial insights into customer booking behavior. Leveraging advanced machine learning techniques, we've identified key factors influencing booking decisions. Our tuned XGBoost model demonstrates high accuracy and precision, equipping British Airways with valuable predictive capabilities.
+Task 2 focuses on understanding relational data and creating a strategic plan for predictive analysis and inventory optimization at Gala Groceries. By leveraging the provided data model diagram and strategic plan presentation, the Data Science team can develop actionable insights and strategies to enhance stock management practices.
 
 ---
 
-Let's continue our exploration of customer behavior with data-driven insights! ✨🚀
+Feel free to explore the provided data model diagram and strategic plan presentation further to gain deeper insights into Gala Groceries' data modeling and predictive analysis strategies! 🛒📊

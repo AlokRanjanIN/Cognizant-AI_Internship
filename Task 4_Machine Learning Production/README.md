@@ -1,88 +1,45 @@
 ---
 
-# British Airways Internship - Task 2
+# Cognizant AI Internship - Task 4
 
-## BA Customer Booking Prediction
+## Machine Learning Production: Model Training and Performance Metrics
 
 ### Overview
 
-Welcome to Task 2 of the British Airways Internship! In this task, we delve into the fascinating world of predictive modeling to understand customer booking behavior. By leveraging advanced machine learning techniques, we aim to uncover the key factors influencing booking decisions, empowering British Airways to tailor its services and offerings effectively.
+Welcome to Task 4 of the Cognizant AI Internship! 🚀 In this task, we focus on developing machine learning algorithms for production. The goal is to prepare a Python module containing code to train a model and output the performance metrics for the Machine Learning engineering team.
 
-### 🔍 Code Overview
+### 🔍 Task Details
 
-#### 1. Importing Libraries
+1. **Python Module Creation:** Develop a Python module that includes code to train a model and output performance metrics.
 
-We start by importing essential libraries for data manipulation, visualization, and machine learning.
+### 📋 Task Background
 
-#### 2. Importing Dataset
+The task involves creating a Python module that streamlines the process of training a machine learning model using the provided datasets and evaluating its performance. The module should be designed to be easily integrated into the production environment, allowing the ML engineering team to efficiently train models and assess their performance.
 
-The dataset (`customer_booking.csv`) is loaded into a Pandas DataFrame for comprehensive analysis.
+### 🐍 Python Module Content: `model_train.py`
 
-#### 3. Exploratory Data Analysis (EDA)
+The `model_train.py` file contains functions for loading data, cleaning data, merging datasets, feature engineering, preprocessing, training a CatBoost regressor model, evaluating model performance, and visualizing feature importance.
 
-We dive into exploratory data analysis to gain insights into the dataset, visualize key features, and understand their distributions.
-
-#### 4. Pre-processing
-
-Prepare the dataset for modeling by handling categorical variables, exploring unique values, and splitting the data into training and testing sets.
-
-#### 5. Model Training - CatBoost
-
-Train a powerful CatBoostClassifier, evaluate its performance, and visualize key metrics and confusion matrices.
-
-#### 6. Model Training - XGBoost
-
-Utilize XGBoost to train a robust model with different configurations, including default settings, validation sets, and hyperparameter tuning.
-
-#### 7. Evaluation Metrics
-
-Assess model performance using essential evaluation metrics such as accuracy, F1 score, precision, recall, and ROC-AUC.
-
-#### 8. XGBoost Feature Importance
-
-Visualize the top feature importances from the tuned XGBoost model to understand the most influential factors.
-
-### 💻 How to Use
+### 🛠️ How to Use
 
 1. Clone the Repository.
-2. Navigate to the Project Directory.
-3. Explore the Task 2 Notebook.
-4. Run the Notebook Cells.
-
+2. Navigate to the Task 4 Directory.
+3. Use the `model_train.py` module to train a machine learning model and assess its performance.
 
 ### 🛠️ Dependencies
 
 #### Required Libraries:
 
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Seaborn
-- XGBoost
-- CatBoost
-- Scikit-learn
-- Imbalanced-learn
-- Bayesian optimization (skopt)
-
-### 📝 Note
-
-Please refrain from directly copying the internship task code for commercial purposes. This repository is for educational purposes only. Use the code wisely and responsibly, and strive to understand the concepts and methodologies behind the analysis.
-
-### Performance Metrics of Final Tuned XGBoost Classifier Model
-
-| Metric     | On Train Set (%) | On Test Set (%) |
-|------------|------------------|-----------------|
-| Accuracy   | 85.346           | 72.435          |
-| F1         | 86.101           | 71.140          |
-| Precision  | 81.885           | 74.649          |
-| Recall     | 90.774           | 67.946          |
-| ROC_AUC    | 93.499           | 80.286          |
+- numpy
+- pandas
+- sklearn
+- catnoost
+- matplotlib
 
 ### Conclusion
 
-Task 2 of the British Airways Internship has unveiled crucial insights into customer booking behavior. Leveraging advanced machine learning techniques, we've identified key factors influencing booking decisions. Our tuned XGBoost model demonstrates high accuracy and precision, equipping British Airways with valuable predictive capabilities.
+Task 4 focuses on developing a Python module for machine learning model training and performance evaluation. By providing a streamlined process for model training and performance assessment, the module enhances the efficiency and effectiveness of machine learning production workflows, empowering the ML engineering team to deploy robust models in real-world applications.
 
 ---
 
-Let's continue our exploration of customer behavior with data-driven insights! ✨🚀
+Feel free to explore the `model_train.py` module and utilize it to train machine learning models and evaluate their performance in production environments! 🚀📊

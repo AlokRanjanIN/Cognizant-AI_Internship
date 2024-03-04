@@ -1,88 +1,91 @@
 ---
 
-# British Airways Internship - Task 2
+# Cognizant AI Internship - Task 3
 
-## BA Customer Booking Prediction
+## Model Building and Interpretation for Gala Groceries
 
 ### Overview
 
-Welcome to Task 2 of the British Airways Internship! In this task, we delve into the fascinating world of predictive modeling to understand customer booking behavior. By leveraging advanced machine learning techniques, we aim to uncover the key factors influencing booking decisions, empowering British Airways to tailor its services and offerings effectively.
+Welcome to Task 3 of the Cognizant AI Internship! 📈 This project focuses on building a predictive model using sample data provided by Gala Groceries. From combining, transforming, and modeling datasets to presenting results back to the business, delve into the world of machine learning to develop insights and strategies for smarter stock management and procurement.
 
-### 🔍 Code Overview
+### 🔍 Task Details
 
-#### 1. Importing Libraries
+#### 1. Building a Predictive Model
 
-We start by importing essential libraries for data manipulation, visualization, and machine learning.
+Build a predictive model using sample data provided by the client.
 
-#### 2. Importing Dataset
+#### 2. Combining, Transforming, and Modeling Datasets
 
-The dataset (`customer_booking.csv`) is loaded into a Pandas DataFrame for comprehensive analysis.
+Combine, transform, and model three datasets in a suitable way to answer the problem statement provided by the business.
 
-#### 3. Exploratory Data Analysis (EDA)
+#### 3. Communicating Results
 
-We dive into exploratory data analysis to gain insights into the dataset, visualize key features, and understand their distributions.
+Communicate your work and analysis in the form of a PowerPoint slide to present the results back to the business.
 
-#### 4. Pre-processing
+### 📋 Task Background
 
-Prepare the dataset for modeling by handling categorical variables, exploring unique values, and splitting the data into training and testing sets.
+Having outlined the strategic plan for completing the modeling work based on the problem statement.
 
-#### 5. Model Training - CatBoost
+The client has provided three datasets, and it's our job to combine, transform, and model these datasets in a suitable way to answer the problem statement. Then, we need to communicate our work and analysis in the form of a single PowerPoint slide, ensuring that we use business-friendly language and explain our results in a way that the business will understand.
 
-Train a powerful CatBoostClassifier, evaluate its performance, and visualize key metrics and confusion matrices.
+### 🧩 Modelling Notebook
 
-#### 6. Model Training - XGBoost
+The notebook contains detailed steps on data cleaning, merging datasets, feature engineering, preprocessing, model building, and visualizing important features.
 
-Utilize XGBoost to train a robust model with different configurations, including default settings, validation sets, and hyperparameter tuning.
+#### 1. Import Libraries & Load Data
 
-#### 7. Evaluation Metrics
+- Imported necessary libraries and loaded the provided datasets: sales, sensor stock levels, and sensor storage temperature.
 
-Assess model performance using essential evaluation metrics such as accuracy, F1 score, precision, recall, and ROC-AUC.
+#### 2. Data Cleaning
 
-#### 8. XGBoost Feature Importance
+- Performed data cleaning tasks such as dropping unnecessary columns, converting timestamp to datetime format, handling missing values, and verifying data integrity.
 
-Visualize the top feature importances from the tuned XGBoost model to understand the most influential factors.
+#### 3. Merge Datasets
 
-### 💻 How to Use
+- Merged datasets based on common columns like `timestamp` and `product_id` to create a comprehensive dataset for modeling.
+
+#### 4. Feature Engineering
+
+- Engineered features including day of month, day of week, and hour from the timestamp column.
+- Applied one-hot encoding (OHE) to categorical variables.
+
+#### 5. Preprocessing
+
+- Split the data into training and testing sets.
+- Standardized numerical features using StandardScaler.
+
+#### 6. Model Building
+
+- Utilized CatBoost, XGBoost, Random Forest Regression, Support Vector Regression, and Mean of y_train for modeling.
+- Evaluated models using cross-validation score and evaluation metrics such as mean absolute error, mean squared error, and adjusted R-squared.
+
+#### 7. Visualize Important Features
+
+- Plotted relative feature importances from the CatBoost model.
+- Analyzed feature coefficients from the Lasso model.
+- Visualized feature correlation with the target variable.
+
+### 📊 PowerPoint Presentation
+
+- Presented a summary of the problem statement and model selection.
+- Communicated model performance and results summary.
+- Included a bar graph of relative feature importances for each feature.
+
+### 🖥️ How to Review
 
 1. Clone the Repository.
-2. Navigate to the Project Directory.
-3. Explore the Task 2 Notebook.
-4. Run the Notebook Cells.
-
-
-### 🛠️ Dependencies
-
-#### Required Libraries:
-
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Seaborn
-- XGBoost
-- CatBoost
-- Scikit-learn
-- Imbalanced-learn
-- Bayesian optimization (skopt)
+2. Navigate to the Task 3 Directory.
+3. Explore the notebook content for detailed modeling steps.
+4. Review the PowerPoint slide for a summary of results and conclusions.
 
 ### 📝 Note
 
 Please refrain from directly copying the internship task code for commercial purposes. This repository is for educational purposes only. Use the code wisely and responsibly, and strive to understand the concepts and methodologies behind the analysis.
 
-### Performance Metrics of Final Tuned XGBoost Classifier Model
-
-| Metric     | On Train Set (%) | On Test Set (%) |
-|------------|------------------|-----------------|
-| Accuracy   | 85.346           | 72.435          |
-| F1         | 86.101           | 71.140          |
-| Precision  | 81.885           | 74.649          |
-| Recall     | 90.774           | 67.946          |
-| ROC_AUC    | 93.499           | 80.286          |
-
 ### Conclusion
 
-Task 2 of the British Airways Internship has unveiled crucial insights into customer booking behavior. Leveraging advanced machine learning techniques, we've identified key factors influencing booking decisions. Our tuned XGBoost model demonstrates high accuracy and precision, equipping British Airways with valuable predictive capabilities.
+Task 3 focuses on building a predictive model and interpreting the results back to the business for smarter stock management and procurement at Gala Groceries. By leveraging the provided datasets and implementing machine learning algorithms, we aim to develop actionable insights and strategies to improve stock level predictions and enhance procurement practices.
 
 ---
 
-Let's continue our exploration of customer behavior with data-driven insights! ✨🚀
+Feel free to explore the provided modeling notebook and PowerPoint presentation further to gain deeper insights into Gala Groceries' predictive modeling and interpretation strategies for stock management and procurement! 📊🛒

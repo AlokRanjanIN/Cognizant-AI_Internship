@@ -9,21 +9,21 @@ The project aimed to tackle Gala Groceries' supply chain issue by optimizing ite
 
 ## Tasks
 
-### Task One: Exploring Customer Data
+### [Task One: Exploring Customer Data](./Task%201_Exploratory%20Data%20Analysis/)
 
 Explore Gala Groceries' sales data to identify insights and recommendations for optimizing stock levels.
 
-### Task Two: Data Modeling
+### [Task Two: Data Modeling](./Task%202_Data%20Modelling/)
 
 Understand relational data and formulate a problem statement for predicting stock levels based on sales and sensor data.
 
-### Task Three: Model Building and Interpretation
+### [Task Three: Model Building and Interpretation](./Task%203_Model%20Building%20and%20Interpretation/)
 Develop predictive models using sample data, combining, transforming, and modeling three datasets effectively to address the business problem statement.
 
-### Task Four: Machine Learning Production
+### [Task Four: Machine Learning Production](./Task%204_Machine%20Learning%20Production/)
 Develop machine learning algorithms for production by preparing a Python module for training models and outputting performance metrics.
 
-### Task Five: Quality Assurance
+### [Task Five: Quality Assurance](./Task%205_Quality%20Assurance/)
 Improve the production machine learning model and discuss optimization strategies with the ML engineering team for better performance before integration.
 
 ## Repository Structure

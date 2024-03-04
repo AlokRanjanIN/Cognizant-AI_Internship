@@ -33,26 +33,26 @@ Improve the production machine learning model and discuss optimization strategie
 │   ├── sample_sales_data.csv    # Dataset containing sales data
 │   ├── EDA.ipynb                # Jupyter notebook for exploratory data analysis
 │   ├── email.pdf                # Report summarizing findings and recommendations
-│   └── README.md                # README for Task One
+│   └── README.md                # README for Task 1
 
 ├── Task2 / (Data Modelling)
 │   ├── data_model_diagram.docx  # Data model diagram
 │   ├── Strategic Plans.pdf      # Strategic plan
-│   └── README.md                # README for Task Two
+│   └── README.md                # README for Task 2
 
 ├── Task3 / (Model Building and Interpretation)
 │   ├── datasets/                # Directory for datasets used in Task Three
 │   ├── modeling.ipynb           # Jupyter notebook for modeling
 │   ├── results.pdf              # Model results
-│   └── README.md                # README for Task Three
+│   └── README.md                # README for Task 3
 
 ├── Task4 / (Machine Learning Production)
 │   ├── datasets/                # Directory for datasets used in Task Four
 │   ├── module_train.py          # Python module for ML
-│   └── README.md                # README for Task Four
+│   └── README.md                # README for Task 4
 
 ├── Task5 / (Quality Assurance)
-│   └── README.md                # README for Task Five
+│   └── README.md                # README for Task 5
 
 ├── LICENSE                      # License file
 └── README.md                    # Main README file
